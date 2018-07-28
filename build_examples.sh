@@ -1,0 +1,1 @@
+bazel build //examples:how_to_use
