@@ -8,3 +8,11 @@ cc_binary(
         "//data:test_data.txt"
     ],
 )
+
+cc_binary(
+    name = "diff_sample_avg",
+    srcs = ["difficulty_sample_avg.cc"],
+    deps = [
+        "//simi:simi",
+    ],
+)
